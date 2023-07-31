@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="aff7e9f74f314dc78ddcd1438dcd7ed2" Name="Diagram1">
+        <EntityTypeShape EntityType="RefrigeratorModel.Product" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RefrigeratorModel.ProductType" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
+        <AssociationConnector Association="RefrigeratorModel.FK_Products_Products" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="RefrigeratorModel.Products_log" Width="1.5" PointX="3" PointY="3.875" />
+        <AssociationConnector Association="RefrigeratorModel.FK_Products_log_Products" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
